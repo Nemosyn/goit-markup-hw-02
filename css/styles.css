@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #434455;
 }
 
@@ -13,7 +13,8 @@ ul {
 }
 
 .logo_head {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -25,19 +26,16 @@ ul {
   color: #2e2f42;
 }
 
-.menu_active,
 .menu_nav {
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu_active:hover {
-  color: #404bbf;
-}
 .menu_nav:hover {
   color: #404bbf;
 }
-.menu_active:focus {
+.menu_nav:focus {
   color: #404bbf;
 }
 
@@ -51,6 +49,9 @@ ul {
   color: #434455;
 }
 .contacts_link:hover {
+  color: #404bbf;
+}
+.contacts_link:focus {
   color: #404bbf;
 }
 
@@ -70,13 +71,13 @@ ul {
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
 }
 .order_block_button:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .order_block_button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .qualities_block_name {
@@ -86,7 +87,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.qualities_block_description{
+.qualities_block_description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -104,7 +105,7 @@ ul {
   text-align: center;
   color: #2e2f42;
 }
-.team_block_list {
+.team_group {
   background-color: #ffffff;
 }
 .team_name {
@@ -122,7 +123,7 @@ ul {
   color: #434455;
 }
 
-.portfolio_black_head {
+.portfolio_block_head {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -135,9 +136,9 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42
+  color: #2e2f42;
 }
-.portfolio_block_description{
+.portfolio_block_description {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -147,7 +148,8 @@ ul {
   background: #2e2f42;
 }
 .logo-end {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
